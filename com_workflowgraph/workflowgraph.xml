@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0.0" method="upgrade">
+
+	<name>com_workflowgraph</name>
+	<version>0.0.1</version>
+	<description>COM_WORKFLOWGRAPH_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Component\Workflowgraph</namespace>
+
+	<administration>
+		<files folder="admin">
+			<folder>media</folder>
+			<folder>services</folder>
+			<folder>src</folder>
+			<folder>tmpl</folder>
+        </files>
+        <languages folder="admin/language">
+			<language tag="en-GB">en-GB/en-GB.com_workflowgraph.sys.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_workflowgraph.ini</language>
+		</languages>
+	</administration>
+
+</extension>
